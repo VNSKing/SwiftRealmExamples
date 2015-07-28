@@ -13,6 +13,7 @@
 		180592471B670E580069173A /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 180592461B670E580069173A /* Images.xcassets */; };
 		1805924A1B670E580069173A /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 180592481B670E580069173A /* LaunchScreen.xib */; };
 		180592561B670E580069173A /* SwiftRealmExamplesTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 180592551B670E580069173A /* SwiftRealmExamplesTests.swift */; };
+		183BC05B1B67223300A61732 /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = 183BC05A1B67223300A61732 /* User.swift */; };
 		77CEDFA5718AAD434B981011 /* Pods_SwiftRealmExamples.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 60FFCA6D7C1F8BFC6DF525DA /* Pods_SwiftRealmExamples.framework */; settings = {ATTRIBUTES = (Weak, ); }; };
 /* End PBXBuildFile section */
 
@@ -38,6 +39,7 @@
 		1805924F1B670E580069173A /* SwiftRealmExamplesTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SwiftRealmExamplesTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		180592541B670E580069173A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		180592551B670E580069173A /* SwiftRealmExamplesTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftRealmExamplesTests.swift; sourceTree = "<group>"; };
+		183BC05A1B67223300A61732 /* User.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
 		60FFCA6D7C1F8BFC6DF525DA /* Pods_SwiftRealmExamples.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SwiftRealmExamples.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		7D2D976E6DBBC80A333F0795 /* Pods-SwiftRealmExamples.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SwiftRealmExamples.release.xcconfig"; path = "Pods/Target Support Files/Pods-SwiftRealmExamples/Pods-SwiftRealmExamples.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -84,6 +86,9 @@
 		1805923C1B670E580069173A /* SwiftRealmExamples */ = {
 			isa = PBXGroup;
 			children = (
+				183BC0571B671ABA00A61732 /* Controller */,
+				183BC0581B671ABA00A61732 /* View */,
+				183BC0591B671ABA00A61732 /* Model */,
 				1805923F1B670E580069173A /* AppDelegate.swift */,
 				180592411B670E580069173A /* ViewController.swift */,
 				180592431B670E580069173A /* Main.storyboard */,
@@ -117,6 +122,28 @@
 				180592541B670E580069173A /* Info.plist */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		183BC0571B671ABA00A61732 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		183BC0581B671ABA00A61732 /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		183BC0591B671ABA00A61732 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				183BC05A1B67223300A61732 /* User.swift */,
+			);
+			path = Model;
 			sourceTree = "<group>";
 		};
 		4B372463219B4C65C86C337E /* Pods */ = {
@@ -289,6 +316,7 @@
 			files = (
 				180592421B670E580069173A /* ViewController.swift in Sources */,
 				180592401B670E580069173A /* AppDelegate.swift in Sources */,
+				183BC05B1B67223300A61732 /* User.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
